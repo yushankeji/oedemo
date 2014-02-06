@@ -1,0 +1,8 @@
+import first
+import unittest
+
+class MyCaseTestCase(unittest.TestCase):
+    def runTest(self):
+        a = first.MyClass() 
+        assert a.add(1,2) == 3, 'ok'
+        assert 1 == 1
